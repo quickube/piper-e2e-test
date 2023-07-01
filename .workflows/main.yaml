@@ -5,10 +5,7 @@
       - name: message
         value: step-1
 - name: local-step2
-  templateRef:
-    name: common-toolkit
-    template: github-notify
-    clusterScope: true
+  template: local-step
   arguments:
     parameters:
       - name: message
