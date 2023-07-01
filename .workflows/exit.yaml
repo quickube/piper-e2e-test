@@ -1,0 +1,6 @@
+- name: exit-handler
+  template: local-step
+  arguments:
+    parameters:
+      - name: message
+        value: exit handler from exit.yaml

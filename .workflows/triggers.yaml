@@ -1,0 +1,8 @@
+- events: 
+    - pull_request
+    - pull_request.synchronize
+    - pull_request.opened
+  branches: ["*"]
+  onStart: ["main.yaml"]
+  onExit: ["exit.yaml"]
+  templates: ["templates.yaml"]

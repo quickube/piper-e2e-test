@@ -1,0 +1,11 @@
+- name: local-step
+  inputs:
+    parameters:
+      - name: message
+  script:
+    image: alpine
+    command: [ sh ]
+    source: |
+      echo "wellcome to {{ workflow.parameters.global }}"
+      echo "{{ inputs.parameters.message }}"
+      
