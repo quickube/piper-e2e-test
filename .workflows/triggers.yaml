@@ -1,5 +1,4 @@
 - events: 
-    - pull_request
     - pull_request.synchronize
     - pull_request.opened
   branches: ["*"]
